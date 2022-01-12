@@ -1,0 +1,58 @@
+body{
+    color: #333333;
+    background-color:#EEEEEE;
+    font-family:'Trebuchet MS';
+    max-width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.main{
+    flex-grow: 1;
+}
+footer{
+    color: #888888;
+    border-top: 1px solid #000000;
+    text-align: left;
+    margin-top: 16px;
+}
+header{
+    border-bottom: 1px solid #000000;
+    text-align: center;
+    margin-bottom: 32px;
+    padding-bottom: 16px;
+    margin-top: 16px;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+p{
+    text-align: center;
+}
+.Big{
+    font-size: 140px;
+}
+header a{
+    font-size: 20px;
+    padding: 16px;
+}
+.portrat{
+    width: 300px;
+}
+form{
+    text-align: center;
+}
+input{
+    border: 1px solid #777777;
+    padding: 8px;
+}
+button{
+    cursor: pointer;
+    border: 1px solid #777777;
+    background-color: #777777;
+    color: white;
+    padding: 8px
+}
